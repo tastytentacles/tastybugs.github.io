@@ -6,8 +6,14 @@
 [node name="test_bed" type="Node2D"]
 script = ExtResource( 2 )
 
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1280.0
+margin_bottom = 800.0
+mouse_filter = 2
+color = Color( 0.215686, 0.192157, 0.168627, 1 )
+
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2( 640, 360 )
+position = Vector2( 640, 339 )
 current = true
 
 [node name="Icon" type="Sprite" parent="."]
