@@ -3,8 +3,8 @@ extends Node2D
 # place holder
 
 func load_area(area):
-	var lod = load(area)
-	var t_area = lod.instance()
+	var t_area = area.instance()
+	t_area.map_return = self
 	get_parent().add_child(t_area)
 	
 	pause_mode = Node.PAUSE_MODE_STOP
